@@ -2,5 +2,37 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: aquamarine;
+}
+.principal-column {
+  margin: 0 15px;
+}
+.principal-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  margin-top: 15px;
+  margin-top: 15px;
+  color: rgb(110, 106, 106);
+}
+
+.form-style {
+  height: 30px;
+  background-color: rgb(212, 211, 211);
+}
+.button-style {
+  border: 0;
+  border-radius: 3px;
+  background-color: rgb(34, 194, 194);
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  height: 30px;
+  width: 70px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.text {
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  font-size: 20px;
 }

@@ -7,7 +7,22 @@
     <title>Prueba intermedia de Natalia</title>
   </head>
   <body>
-    <h1>Adivina tu número</h1>
-    <script style="text/javascript" src="js/main.js"></script>
+    <section class="principal-column">
+      <h1 class="principal-title">Adivina el número</h1>
+      <form action="" method="POST">
+        <div>
+          <div class="randomnumber">
+            <label for="randomnumber">Introduce aquí tu número:</label>
+            <input class="js-number form-style" type="number" id="randomnumber" name="randomnumber" required />
+          </div>
+          <button class="js-button button-style">Prueba</button>
+        </div>
+      </form>
+      <div>
+        <p class="js-clue clue text">Pista: Escribe el número y dale a Prueba</p>
+        <p class="number-try text">Número de intentos: 0</p>
+      </div>
+    </section>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
