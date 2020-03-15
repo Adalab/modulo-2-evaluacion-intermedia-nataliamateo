@@ -9,18 +9,16 @@
   <body>
     <section class="principal-column">
       <h1 class="principal-title">Adivina el número</h1>
-      <form action="" method="POST">
+      <form>
         <div>
           <label for="randomnumber">Introduce aquí tu número:</label>
-          <div class="randomnumber">
-            <input class="js-number form-style" type="number" id="randomnumber" name="randomnumber" required />
-          </div>
-          <button class="js-button button-style">Prueba</button>
+          <input class="js-number form-style" type="number" id="randomnumber" name="randomnumber" required />
         </div>
+        <input type="button" class="js-button button-style" value="prueba" />
       </form>
       <div>
         <p class="js-clue clue text">Pista: Escribe el número y dale a Prueba</p>
-        <p class="number-try text">Número de intentos: 0</p>
+        <p class="js-counter number-try text">Número de intentos: 0</p>
       </div>
     </section>
     <script type="text/javascript" src="js/main.js"></script>
